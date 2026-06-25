@@ -57,7 +57,7 @@ class VectorDB:
 
         print(f"Vector database initialized with collection: {self.collection_name}")
 
-    def chunk_text(self, text: str, chunk_size: int = 500) -> List[str]:
+    def chunk_text(self, text: str, chunk_size: int = 800) -> List[str]:
         """
         Simple text chunking by splitting on spaces and grouping into chunks.
 
